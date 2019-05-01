@@ -1,0 +1,70 @@
+body {
+    background: white;
+}
+
+h1 {
+    color:red;
+    border: 1px solid green;
+    padding: 10px ;
+}
+
+p {
+    border : 2px solid powderblue;
+    margin : 10px; /*The CSS margin property defines a margin (space) outside the border:*/
+    padding: 20px; /*The CSS padding property defines a padding (space) between the text and the border:*/
+}
+
+#p1{
+    border: red solid;
+    margin:10px;
+    padding: 10px;
+}
+
+p.error {
+    border: 5px blue solid;
+    padding: 10px;
+    margin: 20px; 
+}
+
+a.ach {
+    color: black; 
+    display: block; 
+    border:1px solid;
+    padding: 10px; 
+    margin:50px;
+}
+
+/* for menu  */
+ul {
+    list-style-type:none ;
+    margin:50px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333333;
+}
+li {
+    float: left;
+}
+li a:hover{
+    background-color: #111111;
+}
+li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+}
+
+p.ps2 {
+    border: none;
+    padding: 5px;
+    margin: 2px;
+}
+
+
+
+
+
+
+
+
